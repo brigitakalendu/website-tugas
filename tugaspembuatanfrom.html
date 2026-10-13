@@ -1,0 +1,180 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restoran Nusantara - Form Pemesanan</title>
+</head>
+<body>
+
+    <h1>Restoran Nusantara</h1>
+
+    <h2>Daftar Harga Menu Restoran</h2>
+
+    <p>
+        Selamat datang di Restoran Nusantara.
+        Kami menyediakan berbagai macam makanan dan minuman
+        dengan cita rasa yang lezat dan harga yang terjangkau.
+    </p>
+
+    <h3>Menu Makanan dan Minuman</h3>
+
+    <ul>
+        <li>Nasi Goreng Spesial - Rp25.000 / $2</li>
+        <li>Mie Goreng Ayam - Rp20.000 / $1.50</li>
+        <li>Ayam Bakar - Rp30.000 / $2.00</li>
+        <li>Soto Ayam - Rp22.000 / $1.50</li>
+        <li>Es Teh Manis - Rp8.000 / $0.50</li>
+        <li>Jus Alpukat - Rp15.000 / $1.00</li>
+    </ul>
+
+    <h3>Menu Dessert</h3>
+
+    <ul>
+        <li>Pisang Goreng - Rp15.000</li>
+        <li>Es Campur - Rp18.000</li>
+    </ul>
+
+
+    <h2>Form Pemesanan</h2>
+
+    <p>
+        Silakan isi data berikut untuk melakukan pemesanan
+        di Restoran Nusantara.
+    </p>
+
+    <form>
+
+        <h3>Data Pemesan</h3>
+
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama_lengkap"
+               placeholder="Masukkan nama lengkap" required>
+        <br><br>
+
+        <label>No HP:</label><br>
+        <input type="text" name="no_hp"
+               placeholder="Masukkan nomor HP" required>
+        <br><br>
+
+        <label>Tanggal Booking:</label><br>
+        <input type="date" name="tanggal_booking" required>
+        <br><br>
+
+
+        <h3>Pilihan Paket Menu</h3>
+
+        <h4>Makanan</h4>
+
+        <input type="checkbox" name="menu" value="Nasi Goreng Spesial">
+        <label>Nasi Goreng Spesial - Rp25.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_nasi_goreng" size="5">
+        <br><br>
+
+        <input type="checkbox" name="menu" value="Mie Goreng Ayam">
+        <label>Mie Goreng Ayam - Rp20.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_mie_goreng" size="5">
+        <br><br>
+
+        <input type="checkbox" name="menu" value="Ayam Bakar">
+        <label>Ayam Bakar - Rp30.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_ayam_bakar" size="5">
+        <br><br>
+
+        <input type="checkbox" name="menu" value="Soto Ayam">
+        <label>Soto Ayam - Rp22.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_soto_ayam" size="5">
+        <br><br>
+
+
+        <h4>Minuman</h4>
+
+        <input type="checkbox" name="menu" value="Es Teh Manis">
+        <label>Es Teh Manis - Rp8.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_es_teh" size="5">
+        <br><br>
+
+        <input type="checkbox" name="menu" value="Jus Alpukat">
+        <label>Jus Alpukat - Rp15.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_jus_alpukat" size="5">
+        <br><br>
+
+
+        <h4>Dessert</h4>
+
+        <input type="checkbox" name="menu" value="Pisang Goreng">
+        <label>Pisang Goreng - Rp15.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_pisang_goreng" size="5">
+        <br><br>
+
+        <input type="checkbox" name="menu" value="Es Campur">
+        <label>Es Campur - Rp18.000</label>
+        <br>
+        <label>Jumlah:</label>
+        <input type="text" name="jumlah_es_campur" size="5">
+        <br><br>
+
+
+        <h3>Pilihan Pembayaran</h3>
+
+        <input type="radio" name="pembayaran" value="Kartu Debit Kredit">
+        <label>
+            Kartu Debit/Kredit
+        </label>
+
+        <p>
+            <b>VISA</b> &nbsp;&nbsp;&nbsp; <b>Mastercard</b>
+        </p>
+
+        <label>Nomor Kartu:</label><br>
+        <input type="text" name="nomor_kartu"
+               placeholder="Masukkan nomor kartu">
+        <br><br>
+
+
+        <input type="radio" name="pembayaran" value="Dompet Digital">
+        <label>
+            Dompet Digital
+        </label>
+
+        <p>
+            <b>DANA</b> &nbsp;&nbsp;&nbsp;
+            <b>OVO</b> &nbsp;&nbsp;&nbsp;
+            <b>GoPay</b>
+        </p>
+
+        <br>
+
+        <input type="submit" value="Submit Pemesanan">
+
+    </form>
+
+
+    <h3>Alamat Restoran</h3>
+
+    <p>
+        Restoran Nusantara<br>
+        Jl. Merdeka No. 10<br>
+        Jakarta, Indonesia
+    </p>
+
+    <p>
+        &copy; 2026 Restoran Nusantara. All Rights Reserved.
+    </p>
+
+</body>
+</html>
+```
